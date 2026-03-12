@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anas El Amrani | Domain Investor</title>
+  <meta name="description" content="Premium domain names for serious businesses. Anas El Amrani helps companies acquire exact-match keyword domains that build authority and attract high-intent buyers." />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #111827;
+      background: #f9fafb;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    .navbar {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+    }
+
+    .brand {
+      font-size: 20px;
+      font-weight: bold;
+      color: #111827;
+    }
+
+    .nav-links a {
+      margin-left: 24px;
+      color: #374151;
+      font-size: 15px;
+    }
+
+    .hero {
+      background: linear-gradient(to bottom right, #ffffff, #f3f4f6);
+      padding: 80px 0;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #4b5563;
+      margin-bottom: 18px;
+      max-width: 650px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 14px;
+      margin-top: 28px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      padding: 14px 22px;
+      border-radius: 12px;
+      display: inline-block;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .btn-primary {
+      background: #111827;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #111827;
+      border: 1px solid #d1d5db;
+    }
+
+    .hero-card {
+      background: white;
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .hero-card img {
+      width: 100%;
+      max-width: 360px;
+      border-radius: 20px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 18px;
+    }
+
+    .hero-card h3 {
+      font-size: 22px;
+      margin-bottom: 6px;
+    }
+
+    .hero-card p {
+      font-size: 15px;
+      color: #6b7280;
+      margin-bottom: 12px;
+    }
+
+    .badge-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 16px;
+      text-align: left;
+      font-size: 14px;
+      color: #374151;
+    }
+
+    section {
+      padding: 72px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 16px;
+      color: #111827;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #6b7280;
+      max-width: 760px;
+      margin: 0 auto 42px;
+      font-size: 17px;
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      border: 1px solid #edf0f3;
+    }
+
+    .card h3 {
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #6b7280;
+      font-size: 15px;
+    }
+
+    .domain-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .domain-name {
+      font-size: 22px;
+      margin-bottom: 12px;
+      word-break: break-word;
+    }
+
+    .domain-btn {
+      margin-top: 18px;
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: #111827;
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .about-box,
+    .trust-box,
+    .contact-box {
+      background: white;
+      border-radius: 24px;
+      padding: 34px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    .about-box p,
+    .trust-box p,
+    .contact-box p {
+      color: #4b5563;
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+
+    .contact-info {
+      margin-top: 14px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #111827;
+      color: #f9fafb;
+      padding: 28px 0;
+      margin-top: 40px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      margin-left: 18px;
+      color: #d1d5db;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid,
+      .three-col,
+      .domain-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .nav-inner {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .nav-links a {
+        margin: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">Anas El Amrani</div>
+      <div class="nav-links">
+        <a href="#domains">Domains</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Premium Domain Names for Serious Businesses</h1>
+        <p>
+          I help businesses acquire exact-match keyword domains that build authority,
+          improve brand positioning, and attract high-intent buyers.
+        </p>
+        <p>
+          I'm <strong>Anas El Amrani</strong>, a domain investor focused on premium
+          .com domains for legal, real estate, and professional service industries.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn-primary" href="#domains">View Available Domains</a>
+          <a class="btn-secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="your-photo.jpg" alt="Anas El Amrani portrait">
+        <h3>Anas El Amrani</h3>
+        <p>Domain Investor | Premium .COM Domains</p>
+        <div class="badge-list">
+          <div>✔ Independent domain investor</div>
+          <div>✔ Business-focused keyword domains</div>
+          <div>✔ Secure transfers through trusted marketplaces</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Why Premium Domains Matter</h2>
+      <p class="section-subtitle">
+        A strong domain helps your business look more credible, attract the right type of visitor,
+        and strengthen your position in a competitive market.
+      </p>
+
+      <div class="three-col">
+        <div class="card">
+          <h3>Better Credibility</h3>
+          <p>A strong domain instantly makes your business look more established and trustworthy.</p>
+        </div>
+        <div class="card">
+          <h3>More Targeted Traffic</h3>
+          <p>Exact-match domains align closely with what potential buyers are already searching for.</p>
+        </div>
+        <div class="card">
+          <h3>Marketing Advantage</h3>
+          <p>A memorable premium domain can improve brand recall and support more efficient marketing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="domains">
+    <div class="container">
+      <h2 class="section-title">Featured Domains</h2>
+      <p class="section-subtitle">
+        Examples of premium keyword domains that can help businesses strengthen positioning and attract serious inquiries.
+      </p>
+
+      <div class="domain-grid">
+        <div class="card">
+          <div class="domain-name">PatentAttorneyChicago.com</div>
+          <p>Ideal for a Chicago patent law firm looking to match strong local buyer intent and improve credibility.</p>
+          <a class="domain-btn" href="#contact">Inquire</a>
+        </div>
+
+        <div class="card">
+          <div class="domain-name">DivorceLitigationAttorney.com</div>
+          <p>A strong legal keyword domain for firms focused on divorce and litigation-related client acquisition.</p>
+          <a class="domain-btn" href="#contact">Inquire</a>
+        </div>
+
+        <div class="card">
+          <div class="domain-name">RaleighRealEstateBrokers.com</div>
+          <p>A business-focused domain that fits real estate brokers targeting Raleigh-specific search demand.</p>
+          <a class="domain-btn" href="#contact">Inquire</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-box">
+        <p>
+          I focus on acquiring high-quality keyword .com domains for business and professional industries.
+        </p>
+        <p>
+          My goal is to connect companies with domains that match how their customers search online,
+          helping them upgrade their digital presence with stronger branding and search intent alignment.
+        </p>
+        <p>
+          I work primarily with legal, real estate, and service-oriented keyword domains.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Secure Transfers</h2>
+      <div class="trust-box">
+        <p>
+          Serious inquiries only. Domain transfers can be completed through trusted marketplaces and secure transfer systems.
+        </p>
+        <p>
+          This helps ensure a safer and more transparent transaction process for both parties.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-box">
+        <p>
+          Looking for a premium domain for your business? Get in touch to discuss availability and fit.
+        </p>
+        <p class="contact-info">
+          Email: contact@anasamrani.com
+        </p>
+        <p>
+          You can replace this with your preferred email address.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© 2026 Anas El Amrani — Domain Investor</div>
+      <div class="footer-links">
+        <a href="#domains">Domains</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
